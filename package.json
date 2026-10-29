@@ -1,0 +1,17 @@
+{
+  "name": "unsolved-case",
+  "version": "0.1.0",
+  "description": "Unsolved Case: online co-op detective game (Case 1: The Last Ferry)",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "validate": "node tools/validate_case.js",
+    "test": "node tests/engine.test.js && node tests/e2e.test.js"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
